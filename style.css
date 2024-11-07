@@ -1,0 +1,168 @@
+/* General Styles */   
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+header {
+    background-color: hsl(271, 64%, 54%);
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #a74fe2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease; /* Animation effect */
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Scale image on hover */
+}
+
+/* Calculator Styles */
+.calculator {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.calculator button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Comment Section Styles */
+.comment-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-section h2 {
+    margin-top: 0;
+}
+
+.comment-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.comment-section input[type="text"],
+.comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between inputs */
+}
+
+.comment-section button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-section button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.comments-list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eef; /* Light background for comments */
+}
+
+.comments-list p {
+    margin: 5px 0; /* Spacing between comments */
+    font-size: 14px; /* Font size for comments */
+}
